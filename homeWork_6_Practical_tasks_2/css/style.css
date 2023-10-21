@@ -1,0 +1,50 @@
+.button {
+    color: black;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    margin: auto;
+    border-radius: 7%;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+/*1*/
+#container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 20px;
+    height: fit-content;
+}
+.container{
+    display: none;
+}
+.forms{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+}
+.commonClass{
+    display: block;
+    margin-left: 90px;
+    margin-top: 2px;
+}
+.label{
+    display: block;
+    margin-left: 120px;
+    color: red;
+    margin-top: 2px;
+}
+.submit{
+    display: block;
+    margin-left:145px;
+    background-color: red;
+    padding: 5px 5px;
+    width: 60px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/**/
