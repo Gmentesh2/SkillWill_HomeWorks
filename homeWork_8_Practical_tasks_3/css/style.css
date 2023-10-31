@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .post-container {
+    width: 400px;
+    margin: 20px auto;
+  }
+  .post {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  .user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .user-id, .post-id {
+    font-weight: bold;
+  }
+  .post-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .post-content {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+  }
