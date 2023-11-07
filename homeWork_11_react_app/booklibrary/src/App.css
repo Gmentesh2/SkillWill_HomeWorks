@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.books{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+.bookImage{
+  width: 300px;
+  height: 400px;
+  padding: 5px;
+  display: block;
+  margin: 0 auto;
+}
+.bookCard{
+  width: 500px;
+  height: fit-content;
+  border: 1px solid black;
+  outline: 2px solid gray;
+  outline-offset: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 5px;
+}
+.intro{
+  padding: 5px;
+}
+.btn{
+  color: black;
+  background-color: red;
+  width: 200px;
+  height: 45px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 5px;
+}
