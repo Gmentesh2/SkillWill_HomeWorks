@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh
+}
+.card{
+    width: 100%;
+    height:fit-content;
+    border: 2px solid black;
+    width: 450px;
+    margin-top: 20px;
+    background-color: rgba(128, 128, 128, 0.224);
+    border-radius: 3%;
+    outline: 2px solid black;
+    outline-offset: 3px;
+}
+.img{
+    width: 350px;
+    height: 400px;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3%;
+}
+.reviewDiv{
+    max-width: 430px !important; 
+    height: fit-content;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+}
+.name{
+    font-size: 28px;
+    text-align: center;
+}
+.skillsDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
